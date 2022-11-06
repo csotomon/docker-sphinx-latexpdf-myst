@@ -22,5 +22,5 @@ $ docker run --rm -v /path/to/document:/docs csotomon/sphinx-latexpdf-myst make 
 
 Build PDF document:
 ```sh
-$ docker run --rm -v /path/to/document:/docs csotomon/sphinx-latexpdf-myst-latexpdf make latexpdf
+$ docker run --rm -v /path/to/document:/docs csotomon/sphinx-latexpdf-myst make latexpdf
 ```
